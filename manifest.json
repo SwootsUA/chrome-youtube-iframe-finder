@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Iframe Finder",
+    "version": "1.0",
+    "description": "Finds all YouTube iframes on the page and displays the direct video links.",
+    "author": {
+        "email": "kostya20022210@gmail.com"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "assets/icons/icon16.png",
+        "32": "assets/icons/icon32.png",
+        "48": "assets/icons/icon48.png",
+        "64": "assets/icons/icon64.png",
+        "128": "assets/icons/icon128.png"
+    }
+}
